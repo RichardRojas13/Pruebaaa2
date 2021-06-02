@@ -14,7 +14,7 @@
 					var dailyIndicators = data;
 					$("<p/>", {
 						html: 'El valor actual de la UF es $' + dailyIndicators.uf.valor
-					}).appendTo("body");
+					}).appendTo("#valor");
 				}).fail(function() {
 					console.log('Error al consumir la API!');
 				});
@@ -78,7 +78,7 @@
 
                 <thead>
                     <tr>
-                        <th scope="col">Valor</th>
+                        <th scope="col" id="valor">Valor</th>
                     </tr>
                 </thead>
 
