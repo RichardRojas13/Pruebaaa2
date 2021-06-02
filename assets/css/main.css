@@ -2119,7 +2119,7 @@
 	}
 
 		select option {
-			color: rgb(240, 70, 70);
+			color: rgb(170, 168, 168);
 			background-color: #f5f5f5;
 		}
 
@@ -2159,7 +2159,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #777;
+			color: rgb(238, 125, 125);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2185,7 +2185,7 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f8f8f8;
+				background: #f1a1a1;
 				border-radius: 6px;
 				border: solid 1px #e5e5e5;
 				content: '';
