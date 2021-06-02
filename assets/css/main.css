@@ -2185,7 +2185,7 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f1a1a1;
+				background: #b1aeae;
 				border-radius: 6px;
 				border: solid 1px #e5e5e5;
 				content: '';
@@ -2245,9 +2245,9 @@
 /* Box */
 
 	.box {
-		background: rgb(240, 163, 163);
+		background: rgb(167, 158, 245);
 		border-radius: 6px;
-		box-shadow: 0 2px 0 0 #e5e5e5;
+		box-shadow: 0 2px 0 0 #f3a2a2;
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
