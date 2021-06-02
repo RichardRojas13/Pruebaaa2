@@ -41,37 +41,19 @@
 									<form method="post" action="#">
 										<div class="row gtr-uniform gtr-50">
 											<div class="col-6 col-12-mobilep">
-												<input type="text" name="name" id="name" value="" placeholder="Nombre" />
+												<input type="text" name="name" id="name" value="" placeholder="Nombre" required />
 											</div>
 											<div class="col-6 col-12-mobilep">
-												<input type="email" name="email" id="email" value="" placeholder="Correo Electronico" />
-											</div>
-
-											<div class="col-6 col-12-narrower">
-												<input type="checkbox" id="human" name="human" checked>
-												<label for="human">I am a human and not a robot</label>
+												<input type="email" name="email" id="email" value="" placeholder="Correo Electronico"  required/>
 											</div>
 											<div class="col-12">
-												<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+												<textarea name="message" id="message" placeholder="Comentarios" rows="6" required></textarea>
 											</div>
 											<div class="col-12">
 												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Reset" class="alt" /></li>
+													<li><input type="submit" value="Enviar" /></li>
+													<li><input type="reset" value="Borrar" class="alt" /></li>
 												</ul>
-											</div>
-										</div>
-									</form>
-
-									<hr />
-
-									<form method="post" action="#">
-										<div class="row gtr-uniform gtr-50">
-											<div class="col-9 col-12-mobilep">
-												<input type="text" name="query" id="query" value="" placeholder="Query" />
-											</div>
-											<div class="col-3 col-12-mobilep">
-												<input type="submit" value="Search" class="fit" />
 											</div>
 										</div>
 									</form>
