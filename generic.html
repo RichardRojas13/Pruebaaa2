@@ -5,6 +5,18 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script type="text/javascript">
+            $.getJSON('https://mindicador.cl/api', function(data) {
+                var dailyIndicators = data;
+                $("<p/>", {
+                    html: 'El valor actual de la UF es $' + dailyIndicators.uf.valor
+                }).appendTo("body");
+            }).fail(function() {
+                console.log('Error al consumir la API!');
+            });
+        </script>
+
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
