@@ -2245,9 +2245,9 @@
 /* Box */
 
 	.box {
-		background: rgb(167, 158, 245);
+		background: rgb(187, 181, 240);
 		border-radius: 6px;
-		box-shadow: 0 2px 0 0 #b9b5b5;
+		box-shadow: 0 2px 0 0 #525151;
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
