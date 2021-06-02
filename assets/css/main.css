@@ -2064,7 +2064,7 @@
 	}
 
 	label {
-		color: #f78181;
+		color: #c4bdbd;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -2080,7 +2080,7 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background-color: #f18a8a;
+		background-color: #d1c9c9;
 		border-radius: 6px;
 		border: solid 1px #a2aaf8;
 		color: inherit;
